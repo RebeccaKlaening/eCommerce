@@ -1,0 +1,14 @@
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/bin/Debug/netcoreapp2.1/eCommerce.deps.json
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/bin/Debug/netcoreapp2.1/eCommerce.runtimeconfig.json
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/bin/Debug/netcoreapp2.1/eCommerce.runtimeconfig.dev.json
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/bin/Debug/netcoreapp2.1/eCommerce.dll
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/bin/Debug/netcoreapp2.1/eCommerce.pdb
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/obj/Debug/netcoreapp2.1/eCommerce.csprojAssemblyReference.cache
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/obj/Debug/netcoreapp2.1/eCommerce.csproj.CoreCompileInputs.cache
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/obj/Debug/netcoreapp2.1/eCommerce.RazorAssemblyInfo.cache
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/obj/Debug/netcoreapp2.1/eCommerce.RazorAssemblyInfo.cs
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/obj/Debug/netcoreapp2.1/eCommerce.AssemblyInfoInputs.cache
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/obj/Debug/netcoreapp2.1/eCommerce.AssemblyInfo.cs
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/obj/Debug/netcoreapp2.1/eCommerce.RazorTargetAssemblyInfo.cache
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/obj/Debug/netcoreapp2.1/eCommerce.dll
+/Users/rebeccaklaening/Documents/Project/c-sharp/ecommerce/eCommerce/obj/Debug/netcoreapp2.1/eCommerce.pdb
