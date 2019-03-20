@@ -20,5 +20,6 @@
 
   <ItemGroup>
     <Compile Remove="Services\Cart.cs" />
+    <Compile Remove="Checkout.cs" />
   </ItemGroup>
 </Project>

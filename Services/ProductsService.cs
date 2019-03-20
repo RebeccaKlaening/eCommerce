@@ -9,6 +9,7 @@ namespace eCommerce.Services
     public class ProductsService
     {
         private readonly ProductsRepository productRepository;
+        private object productsRepository;
 
         public ProductsService(ProductsRepository productRepository)
         {
@@ -22,17 +23,22 @@ namespace eCommerce.Services
         }
 
 
-        public Products Get(int id)
+        public List<Products> Get(string key)
         {
-
-            if (id < 1)
-            {
-                return null;
-            }
-
-            return this.productRepository.Get(id);
+            return this.productRepository.Get(key);
         }
 
+
+        //public Products Get(int id)
+        //{
+
+        //    if (id < 1)
+        //    {
+        //        return null;
+        //    }
+
+        //    return this.productRepository.Get(id);
+        //}
 
     }
 }

@@ -35,5 +35,15 @@ namespace eCommerce.Repositories
         }
 
 
+
+        public List<Products> Get(string key)
+        {
+            using (SQLiteConnection connection = new SQLiteConnection(this.connectionString))
+            {
+                return connection.Query<Products>("SELECT * FROM products WHERE id = @key", new { key }).ToList();
+            }
+        }
+
+
     }
 }

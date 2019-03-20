@@ -35,5 +35,15 @@ namespace eCommerce.Controllers
             return Ok(this.productsService.Get());
         }
 
+
+        [HttpGet("{key}")]
+        [ProducesResponseType(typeof(Products), StatusCodes.Status200OK)]
+        [ProducesResponseTypeAttribute(StatusCodes.Status404NotFound)]
+        public IActionResult Get(string key)
+        {
+            var resault = this.productsService.Get(key);
+            return Ok(resault);
+        }
+
     }
 }
