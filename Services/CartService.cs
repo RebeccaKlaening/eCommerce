@@ -7,7 +7,7 @@ namespace eCommerce.Services
 {
     public class CartService
     {
-        private readonly CartRepository cartRepository;
+        private CartRepository cartRepository;
 
         public CartService(CartRepository cartRepository)
         {
@@ -15,22 +15,10 @@ namespace eCommerce.Services
 
         }
 
-        public List<Cart> Get()
+        public List<Cart> Get(string guid)
         {
-            return this.cartRepository.Get();
+            return this.cartRepository.Get(guid);
         }
-
-        public Cart Get(int id)
-        {
-
-            if (id < 1)
-            {
-                return null;
-            }
-
-            return this.cartRepository.Get(id);
-        }
-
 
     }
 }

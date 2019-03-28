@@ -3,7 +3,7 @@ namespace eCommerce.Models
 {
     public class Products
     {
-        public int Id { get; set; }
+        public int id { get; set; }
         public string product_name { get; set; }
         public int product_quantity { get; set; }
         public string product_description { get; set; }

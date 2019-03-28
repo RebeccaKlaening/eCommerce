@@ -14,23 +14,22 @@ namespace eCommerce.Controllers
     [Route("api/[controller]")]
     public class CartController : Controller
     {
-        private readonly string connectionString;
         private readonly CartService cartService;
 
         public CartController(IConfiguration configuration)
         {
-            this.connectionString = configuration.GetConnectionString("ConnectionString");
+            var connectionString = configuration.GetConnectionString("ConnectionString");
             this.cartService = new CartService(new CartRepository(connectionString));
         }
 
-        public object CartService { get; private set; }
 
-        [HttpGet]
-        [ProducesResponseType(typeof(List<Cart>), StatusCodes.Status200OK)]
-        public IActionResult Get()
-
+        [HttpGet("{guid}")]
+        [ProducesResponseType(typeof(Cart), StatusCodes.Status200OK)]
+        [ProducesResponseTypeAttribute(StatusCodes.Status404NotFound)]
+        public IActionResult Get(string guid)
         {
-            return Ok(this.cartService.Get());
+            var result = this.cartService.Get(guid);
+            return Ok(result);
         }
 
     }

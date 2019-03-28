@@ -12,28 +12,20 @@ namespace eCommerce.Repositories
     {
  
     private readonly string connectionString;
-    public CartRepository(string connectionstring)
-    {
-      this.connectionString = connectionstring;
-    }
+        public CartRepository(string connectionstring)
+        {
+            this.connectionString = connectionstring;
+        }
 
-    public List<Cart> Get()
-    {
-      using (var connection = new SQLiteConnection(this.connectionString))
-      {
-        return connection.Query<Cart>("SELECT * FROM CartCustomer").ToList();
-      }
-    }
 
-    public Cart Get(int id)
-    {
-      using (var connection = new SQLiteConnection(this.connectionString))
-      {
-        return connection.QuerySingleOrDefault<Cart>("SELECT * FROM CartCustomer WHERE Id = @Id", new { id });
-      }
+        public List<Cart> Get(string guid)
+        {
+            using (SQLiteConnection connection = new SQLiteConnection(this.connectionString))
+            {
+                return connection.Query<Cart>("SELECT cartItems.id, product_id, cart_quantity, cart_guid, product_name, product_image, product_description, product_price FROM cartItems LEFT JOIN products ON cartItems.product_id = products.id WHERE cart_guid = @guid", new { guid }).ToList();
+            }
 
-      }
-
+        }
 
     }
       

@@ -7,8 +7,8 @@ using eCommerce.Models;
 
 namespace eCommerce.Repositories
 {
-    public class ProductsRepository
-    {
+    public class ProductsRepository : IProductsRepository
+{
         private readonly string connectionString;
 
         public ProductsRepository(string connectionstring)

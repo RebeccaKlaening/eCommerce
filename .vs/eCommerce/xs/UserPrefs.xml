@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{9893C198-1B67-4740-AF7D-F21A65945386}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="eCommmerce.UnitTests/eCommmerce.UnitTests.csproj">
+    <Files>
+      <File FileName="eCommmerce.UnitTests/Services/ProductsServiceTests.cs" Line="7" Column="7" />
+      <File FileName="eCommmerce.UnitTests/eCommmerce.UnitTests.csproj" Line="17" Column="5" />
+      <File FileName="Models/Products.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="eCommerce" expanded="True">
+            <Node name="eCommerce" expanded="True">
+              <Node name="eCommmerce.UnitTests" expanded="True">
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="eCommmerce.UnitTests" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.eCommerce PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
